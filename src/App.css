@@ -1,3 +1,58 @@
 .App {
   text-align: center;
 }
+
+
+h1 {
+  color: rgb(0, 195, 255);
+  font-size: 27px;
+}
+
+.myCal {
+
+  width: 350px;
+  height: 450px;
+  background-color: dimgray;
+  padding: 5px;
+}
+
+.output {
+
+line-height: 50px;
+background-color: white;
+color: black;
+height: 60px;
+margin-bottom: 10px;
+margin-top: 10px;
+font-size: 1.8em;
+text-align: right;
+font-family: monospace;
+padding: 0 8px;
+}
+
+
+
+.btn {
+ 
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    margin: 3px;
+    background-color: azure;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 50px;
+    display: inline-block;
+
+}
+.btn:hover {
+ 
+
+    background-color: rgb(56, 202, 202);
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+
