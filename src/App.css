@@ -8,51 +8,30 @@ h1 {
   font-size: 27px;
 }
 
-.myCal {
-
-  width: 350px;
-  height: 450px;
-  background-color: dimgray;
-  padding: 5px;
+.result {
+  height: 60px;
+  background-color: rgba(235, 241, 241, 0.993);
+  width: 100%;
 }
+ .result p {
+   font-size: 40px;
+   margin: 5px;
+   padding-top: 5px;
+   text-align-last: center;
+   color: rgb(7, 12, 1);
+ }
 
-.output {
-
-line-height: 50px;
-background-color: white;
-color: black;
-height: 60px;
-margin-bottom: 10px;
-margin-top: 10px;
-font-size: 1.8em;
-text-align: right;
-font-family: monospace;
-padding: 0 8px;
+ .calculator-body {
+  max-width: 400px;
+  margin: auto;
 }
-
-
-
-.btn {
- 
-    width: 50px;
-    height: 50px;
-    padding: 7px;
-    margin: 3px;
-    background-color: azure;
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    line-height: 50px;
-    display: inline-block;
+.button {
+  display: block;
 
 }
-.btn:hover {
- 
-
-    background-color: rgb(56, 202, 202);
-    cursor: pointer;
-    font-size: 25px;
-
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(94, 172, 245)!important;
 }
-
-
